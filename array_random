@@ -5,12 +5,13 @@
 var a=0,b=10, max=20,min=1,c=Math.round(Math.random()*(max-min)+min);
 var array=[];
 while(a<b){
-a=random(a);
-array.push(a);
+a=a+1;
+array.push(c);
+c=random()
 }
 console.log(array)
-function random(value){
-return value+c;
+function random(){
+return Math.round(Math.random()*(max-min)+min);
 }
 </script>
 </body>
